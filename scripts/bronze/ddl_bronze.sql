@@ -1,6 +1,7 @@
 /*
 ===================================
-DDL stript : create bronze tables  
+DDL stript : create bronze tables
+Purpose : This script creates tables in the 'bronze' schema. 
 ===================================
 */
 
