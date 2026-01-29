@@ -1,5 +1,8 @@
 /*
-Create silver layer structure
+===================================
+DDL stript : create silver tables
+Purpose : This script creates tables in the 'silver' schema. 
+===================================
 
 */
 
