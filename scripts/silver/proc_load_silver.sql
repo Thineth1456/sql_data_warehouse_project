@@ -1,4 +1,10 @@
-
+/*
+=================================================
+stored procedure : load silver Layer
+Purpose : This stored procedure loads data and transformation to the 'silver' schema from 'bronze' schema
+(ETL Process)
+==================================================
+*/
 
 
 INSERT INTO silver.crm_sales_details(
