@@ -62,7 +62,7 @@ INSERT INTO silver.crm_sales_details(
    from bronze.erp_loc_101;
 
 
-   INSERT INTO bronze.erp_cust_az12(
+   INSERT INTO silver.erp_cust_az12(
 	cid,
 	bday,
 	gen
