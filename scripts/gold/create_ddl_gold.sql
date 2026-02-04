@@ -34,3 +34,23 @@ LEFT JOIN  silver.erp_cust_az12 ca
 ON ci.cst_key = ca.cid
 LEFT JOIN silver.erp_loc_101 l1
 ON l1.cid = ci.cst_key;
+
+
+
+
+CREATE VIEW gold.dim_customer AS
+SELECT prd_id
+      ,cat_id
+      ,prd_key
+      ,prd_nm
+      ,prd_cost
+      ,prd_linr
+      ,prd_start_dt
+      ,prd_end_dt
+      ,g1v2.cat
+      ,g1v2.subcat
+      ,g1v2.maintenance
+  FROM silver.crm_prd_info pd
+  LEFT JOIN silver.erp_px_cat_g1v2 g1v2
+  ON pd.cat_id = g1v2.id
+
